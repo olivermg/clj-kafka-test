@@ -5,6 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
   :dependencies [[org.clojure/clojure "1.9.0"]
+                 [org.clojure/core.async "0.4.474"]
                  [spootnik/kinsky "0.1.22"]]
 
   :main ^:skip-aot clj-kafka-test.core
