@@ -1,7 +1,10 @@
 (ns clj-kafka-test.core
-  (:gen-class))
+  (:gen-class)
+  (:require [clojure.core.async :refer [go <! >! chan]]
+            [kinsky.client :as kc]
+            [kinsky.async :as ka]))
+
 
 (defn -main
-  "I don't do a whole lot ... yet."
   [& args]
   (println "Hello, World!"))
